@@ -77,7 +77,7 @@ const Sidebar = () => {
   const { role } = auth.authState.userInfo;
   return (
     <section className="h-screen">
-      <div className="w-16 sm:w-24 m-auto">
+      <div className="w-40 sm:w-44 m-auto">
         <img src={logo} rel="logo" alt="Logo" />
       </div>
       <div className="mt-20">

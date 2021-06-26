@@ -26,11 +26,11 @@ const Account = () => {
 
   return (
     <>
-      <PageTitle title="Account" />
+      <PageTitle title="Mi cuenta" />
       <Card>
-        <p className="font-bold">User Role</p>
+        <p className="font-bold">Rol de Usuario</p>
         <div className="mt-4">
-          <p>Select a role for yourself</p>
+          <p>Seleccione un rol: </p>
           <div className="mt-2 flex">
             <select
               defaultValue={auth.authState.userInfo.role}

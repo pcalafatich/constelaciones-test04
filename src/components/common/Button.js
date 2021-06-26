@@ -10,7 +10,7 @@ const Button = ({ type, text, loading }) => (
     {loading ? (
       <span className="flex items-center">
         <FontAwesomeIcon icon={faCircleNotch} spin />
-        <span className="ml-2">Loading...</span>
+        <span className="ml-2">Cargando...</span>
       </span>
     ) : (
       <span>{text}</span>

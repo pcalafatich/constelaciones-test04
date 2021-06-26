@@ -36,7 +36,7 @@ const UserDetail = ({ user }) => (
             />
           ) : (
             <p className="text-gray-500 italic">
-              No bio set
+              No hay datos
             </p>
           )}
         </div>
@@ -65,7 +65,7 @@ const Users = () => {
 
   return (
     <>
-      <PageTitle title="Users" />
+      <PageTitle title="Usuarios" />
       <div className="flex flex-col">
         {!!users.length &&
           users.map(user => (

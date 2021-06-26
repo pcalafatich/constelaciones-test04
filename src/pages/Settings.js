@@ -47,10 +47,10 @@ const Settings = () => {
   };
   return (
     <>
-      <PageTitle title="Settings" />
+      <PageTitle title="Configuración" />
       <Card>
         <h2 className="font-bold mb-2">
-          Fill Out Your Bio
+          Bio
         </h2>
         {successMessage && (
           <FormSuccess text={successMessage} />
@@ -69,9 +69,9 @@ const Settings = () => {
                 className="border border-gray-300 rounded p-1 w-full h-56 mb-2"
                 component="textarea"
                 name="bio"
-                placeholder="Your bio here"
+                placeholder="Complete sus datos"
               />
-              <GradientButton text="Save" type="submit" />
+            <GradientButton text="Guardar" type="submit" />
             </Form>
           )}
         </Formik>
