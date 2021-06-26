@@ -77,7 +77,7 @@ const Dashboard = () => {
           </div>
         </>
       ) : (
-        <p>Loading...</p>
+        <p>Cargando...</p>
       )}
     </>
   );

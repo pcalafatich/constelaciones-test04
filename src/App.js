@@ -28,7 +28,7 @@ const Users = lazy(() => import('./pages/Users'));
 
 const LoadingFallback = () => (
   <AppShell>
-    <div className="p-4">Loading...</div>
+    <div className="p-4">Cargando...</div>
   </AppShell>
 );
 
