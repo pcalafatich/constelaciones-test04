@@ -7,9 +7,9 @@ const FourOFour = () => {
       <h1 className="text-6xl font-bold text-gray-800 mt-10">
         404
       </h1>
-      <h2 className="text-4xl">Page Not Found</h2>
+      <h2 className="text-4xl">Página no encontrada</h2>
       <div className="mt-2">
-        <GradientLink text="Go Back Home" to="/" />
+        <GradientLink text="Volver al Inicio" to="/" />
       </div>
     </div>
   );

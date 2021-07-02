@@ -13,7 +13,7 @@ const AppShell = ({ children }) => {
           <Sidebar />
         </div>
         <div className="flex flex-col w-full border-l border-gray-200">
-          <div className="p-4 border-b border-gray-200 bg-white">
+          <div className="p-4 border-b border-gray-300 bg-white">
             <Navbar />
           </div>
           <div className="px-4 sm:px-8 py-2 bg-gray-100">

@@ -21,7 +21,7 @@ import Signup from './pages/Signup';
 import FourOFour from './pages/FourOFour';
 
 const Dashboard = lazy(() => import('./pages/Dashboard'));
-const Inventory = lazy(() => import('./pages/Inventory'));
+const Constelacion = lazy(() => import('./pages/Constelacion'));
 const Account = lazy(() => import('./pages/Account'));
 const Settings = lazy(() => import('./pages/Settings'));
 const Users = lazy(() => import('./pages/Users'));
@@ -89,8 +89,8 @@ const AppRoutes = () => {
           <AuthenticatedRoute path="/dashboard">
             <Dashboard />
           </AuthenticatedRoute>
-          <AdminRoute path="/inventory">
-            <Inventory />
+          <AdminRoute path="/constelacion">
+            <Constelacion />
           </AdminRoute>
           <AuthenticatedRoute path="/account">
             <Account />

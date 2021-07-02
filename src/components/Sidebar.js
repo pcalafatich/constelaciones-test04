@@ -19,12 +19,12 @@ const navItems = [
     icon: faChartLine,
     allowedRoles: ['user', 'admin']
   },
-  // {
-  //   label: 'Inventario',
-  //   path: 'inventory',
-  //   icon: faChartPie,
-  //   allowedRoles: ['admin']
-  // },
+   {
+     label: 'Constelacion',
+     path: 'constelacion',
+     icon: faChartLine,
+     allowedRoles: ['admin']
+   },
   {
     label: 'Mi cuenta',
     path: 'account',
